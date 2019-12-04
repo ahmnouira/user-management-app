@@ -1,6 +1,17 @@
 {
   "name": "user-managment-app",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "User Management App using Angular and Firebase Firestore database",
+  "license": "MIT",
+  "author": {
+    "name": "Ahmed Nouira",
+    "email": "ahmnouira@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmnouira/user-management-app"
+  },
+  "readme": "https://github.com/ahmnouira/user-management-app#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +20,10 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "keywords": [
+    "User Management",
+    "Charts"
+  ],
   "private": true,
   "dependencies": {
     "@angular/animations": "~8.2.14",

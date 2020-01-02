@@ -51,7 +51,8 @@
     </div>
     
   <div class="row">
-    <div class="ui container three cards">    
+    <!-- display list of users -->
+    <div *ngIf="users$ | async as users;" class="ui container three cards">    
       <div class="card" *ngFor="let user of users">
         <div class="content">
           <img src="/assets/users/profile1.png" alt="img" class="ui right floated image" width="60" height="60">

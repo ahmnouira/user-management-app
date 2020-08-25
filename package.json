@@ -38,7 +38,7 @@
     "@angular/router": "~8.2.14",
     "angular-highcharts": "^8.0.3",
     "firebase": "^7.6.1",
-    "highcharts": "^8.0.0",
+    "highcharts": "^8.1.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
